@@ -1,0 +1,51 @@
+{
+    "name":  "ai-ready",
+    "logo":  "🧭",
+    "exe":  "AiReady.exe",
+    "desc":  "Free, open-source AI readiness check for Windows — GPU, VRAM and runtime verdicts plus model suggestions. 100 MB portable, offline, MIT.",
+    "topics":  [
+                   "hardware-check",
+                   "ai-readiness",
+                   "gpu-check",
+                   "local-ai",
+                   "diagnostics",
+                   "ai-tools",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "vram",
+                   "cuda",
+                   "directml",
+                   "vulkan",
+                   "report",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **Hardware verdicts** — GPU, VRAM, RAM and CPU flags checked against the real needs of local models",
+                     "✅ **Tool-class matrix** — see whether a 7B chat model, image generation or Whisper will run well, barely or not",
+                     "✅ **Runtime support check** — CUDA, Vulkan and DirectML availability reported before you download gigabytes",
+                     "✅ **Bottleneck callout** — one plain sentence names the part holding the machine back, usually VRAM",
+                     "✅ **Model size suggestions** — concrete quant and context ceilings for this exact machine",
+                     "✅ **Shareable report** — a text summary for forum posts and support threads with serials redacted",
+                     "✅ **100 MB self-contained exe** — runtime bundled, portable, fully offline, MIT with SHA-256 releases"
+                 ],
+    "compare":  [
+                    "| Feature | **ai-ready** | dxdiag | GPU-Z | Forum checklist posts |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Built-in | Free | Free |",
+                    "| Open source | **Yes** | No | No | N/A |",
+                    "| Local AI capability verdict | **Yes** | No | No | Manual",
+                    "| Runtime matrix CUDA Vulkan DirectML | **Yes** | No | Partial | No",
+                    "| Model size suggestions | **Yes** | No | No | Rough",
+                    "| Portable, no install | **Yes, 100 MB** | Built-in | Installer | N/A"
+                ],
+    "faqQ":  "can my PC run local LLMs? which model size fits my GPU?",
+    "faqA":  "Forum answers range from wrong to insulting, and guesswork wastes gigabytes of downloads. ai-ready checks the actual hardware and runtimes, then gives concrete quant and context ceilings plus a bottleneck sentence. It is a 100 MB portable exe, MIT, offline, with a redacted report you can paste anywhere.",
+    "s1":  "Dark readiness report (#121418, emerald #059669): green check rows for GPU, RAM and runtime probes, verdict card reading 13B models run well, 70B not.",
+    "s2":  "Tool matrix: rows for chat, image generation, speech and OCR with status badges from smooth to not viable, legend panel on the right.",
+    "s3":  "Suggestions panel: quant ceiling Q5_K_M noted, context advice at 16k, bottleneck sentence about 8 GB VRAM, export report button highlighted."
+}
